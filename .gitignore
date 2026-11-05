@@ -9,3 +9,5 @@ venv/
 Thumbs.db
 desktop.ini
 .claude/
+node_modules/
+frontend/dist/

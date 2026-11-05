@@ -1,50 +1,15 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Corpus Search</title>
-  <link rel="icon" href="data:,">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
-  <link rel="stylesheet" href="/style.css">
-</head>
-<body>
-  <main class="page">
-    <header class="masthead">
-      <h1>Corpus search</h1>
-      <p class="stats" id="stats">Reading index&hellip;</p>
-    </header>
-
-    <form class="search" id="search-form" role="search" autocomplete="off">
-      <label class="visually-hidden" for="q">Query</label>
-      <input id="q" name="q" type="text" spellcheck="false" autocapitalize="off"
-             placeholder="index AND (boolean OR retriev*)">
-      <button type="submit">Search</button>
-    </form>
-
-    <div class="help">
-      <p>
-        <code>AND</code> <code>OR</code> <code>NOT</code> <code>( )</code> combine words,
-        <code>*</code> matches any letters. Words side by side are joined with AND.
-      </p>
-      <p class="examples">
-        Try
-        <button type="button" data-query="retriev*">retriev*</button>,
-        <button type="button" data-query="index AND NOT compression">index AND NOT compression</button>,
-        <button type="button" data-query="(crawler OR spider) AND web">(crawler OR spider) AND web</button>
-      </p>
-    </div>
-
-    <section class="results" id="results" aria-live="polite" aria-label="Results"></section>
-  </main>
-
-  <footer class="colophon">
-    Web Search &amp; Mining &middot; inverted index, boolean queries, k-gram wildcards
-    <span class="kbd-hint">Press <kbd>/</kbd> to search</span>
-  </footer>
-
-  <script src="/app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ff4a1c" />
+    <link rel="icon" href="data:," />
+    <title>Corpus Search</title>
+    <script type="module" crossorigin src="/assets/index-DMGCM-6I.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Cx_Lv4Jv.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
