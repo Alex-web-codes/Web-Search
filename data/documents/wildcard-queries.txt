@@ -1,0 +1,3 @@
+A wildcard query uses a special symbol, usually the asterisk, to stand for any sequence of characters. The query "retriev*" should find retrieval, retrieve and retrieved without the user typing each form.
+
+One way to support this is a k-gram index. Every term is padded with a boundary marker and broken into overlapping character sequences of length k. The k-grams of the pattern select candidate terms, and a final filtering step removes candidates that share the k-grams but not their order. Another option is the permuterm index, which stores every rotation of each term.

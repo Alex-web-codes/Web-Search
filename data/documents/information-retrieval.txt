@@ -1,0 +1,3 @@
+Information retrieval is the task of finding material, usually documents, that satisfies an information need from within a large collection. A user expresses the need as a query, and the system returns the documents it believes are relevant.
+
+Early retrieval systems were built for librarians and legal researchers who wrote precise boolean queries. Modern search engines hide most of that machinery, but the core ideas are the same: process the documents once, build an index, and answer queries quickly against it.

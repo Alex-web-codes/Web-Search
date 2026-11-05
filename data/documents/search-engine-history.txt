@@ -1,0 +1,3 @@
+The first tools for searching the internet indexed file names on FTP servers rather than page contents. As the web grew in the 1990s, full-text search engines began to crawl pages and index every word they contained.
+
+Early engines ranked results mostly by how often query terms appeared, which made them easy to manipulate. Ranking by link analysis was a major step forward, and later engines added hundreds of signals, from freshness to the location of the searcher.

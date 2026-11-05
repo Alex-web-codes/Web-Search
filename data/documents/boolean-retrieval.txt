@@ -1,0 +1,3 @@
+In the boolean retrieval model a query is a logical expression of terms joined by AND, OR and NOT. A document either matches the expression or it does not; there is no notion of partial relevance.
+
+AND corresponds to intersecting postings lists, OR to taking their union, and NOT to the complement with respect to the whole collection. Professional searchers still like the model because it is predictable: the same query always returns exactly the same set of documents.

@@ -1,0 +1,3 @@
+Tokenization splits a stream of characters into tokens, the units that will later become index terms. Splitting on whitespace is a start, but punctuation raises awkward questions. Should "state-of-the-art" stay one token? What about "O'Neill", "don't" or an e-mail address?
+
+After tokenization comes normalization. Case folding maps "Retrieval" and "retrieval" to the same term, and removing accents lets "café" match "cafe". Every decision made for documents must be repeated for queries, otherwise the two will never meet.

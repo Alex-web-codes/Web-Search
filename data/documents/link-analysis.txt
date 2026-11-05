@@ -1,0 +1,3 @@
+Link analysis treats the web as a graph in which pages are nodes and hyperlinks are edges. The idea is that a link from one page to another is a kind of vote of confidence.
+
+PageRank models a random surfer who keeps clicking links and occasionally jumps to a random page. The long-run share of time the surfer spends on a page becomes its score. Pages linked from many important pages end up important themselves, which helps a search engine order results that all match the query.

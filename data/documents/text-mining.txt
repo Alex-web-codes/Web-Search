@@ -1,0 +1,3 @@
+Text mining looks for patterns in large amounts of unstructured text. Typical tasks include clustering similar documents, classifying them into categories, extracting named entities and measuring sentiment.
+
+Most text mining pipelines begin exactly like an indexing pipeline: documents are tokenized, normalized and counted. The resulting term frequencies feed statistical models rather than a query processor, but the preprocessing is shared, which is why the two subjects are usually taught together.

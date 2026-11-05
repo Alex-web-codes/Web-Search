@@ -1,0 +1,3 @@
+A web crawler, sometimes called a spider, discovers pages by following links. It starts from a set of seed addresses, downloads each page, extracts the links it finds, and adds the new addresses to a queue called the frontier.
+
+A polite crawler respects robots.txt, limits how often it contacts a single host and avoids downloading the same page twice. Because the web changes constantly, crawling never really finishes; important pages are simply revisited more often.

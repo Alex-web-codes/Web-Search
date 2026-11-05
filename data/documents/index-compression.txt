@@ -1,0 +1,3 @@
+A large collection produces postings lists with billions of entries, so compression matters. Instead of storing document identifiers directly, an index stores the gaps between consecutive identifiers, which are small numbers for frequent terms.
+
+Those gaps are then written with a variable-length code such as variable byte encoding or gamma codes. A compressed index takes less disk space and, because more of it fits in memory, it is often faster to query than an uncompressed one.
