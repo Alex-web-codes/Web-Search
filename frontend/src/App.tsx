@@ -4,7 +4,7 @@ import { SearchResults, type ResultState } from "@/components/search-results"
 import PushpinTearFooter, { type TearLink } from "@/components/ui/pushpin-tear-footer"
 import { fetchStats, searchCorpus, type Stats } from "@/lib/api"
 
-const REPO = "https://github.com/Alex-web-codes/web-search-mining"
+const REPO = "https://github.com/Alex-web-codes/Web-Search"
 const LOCAL_ZONE = Intl.DateTimeFormat().resolvedOptions().timeZone
 
 const initialQuery = () => new URLSearchParams(window.location.search).get("q") ?? ""

@@ -8,6 +8,5 @@ venv/
 .DS_Store
 Thumbs.db
 desktop.ini
-.claude/
 node_modules/
 frontend/dist/

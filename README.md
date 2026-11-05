@@ -1,4 +1,4 @@
-# web-search-mining
+# Web-Search
 
 A small boolean search engine with wildcard queries and a web interface.
 The engine and server use only the Python standard library. The page is a

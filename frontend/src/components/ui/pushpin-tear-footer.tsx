@@ -17,7 +17,7 @@ import * as React from "react"
  * No dependencies and nothing fetched: the tear, flaps, grain, pin and icons
  * are SVG and canvas built from numbers.
  *
- * Local additions (web-search-mining):
+ * Local additions (Web-Search):
  *   - `search`   swaps the newsletter for a search field with a Search button
  *   - `copy`     a generic copy-to-clipboard button in place of the email
  *   - `onClick`  on links, CTAs, status and chat, for in-page actions
